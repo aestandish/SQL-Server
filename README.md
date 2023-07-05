@@ -1,10 +1,8 @@
-# Linux SQL Server
+# SQL Server Setup w/ Docker Compose
 
-This code uses docker compose to pull and run a Linux sql server image. 
+This code uses docker compose to pull and run a Linux SQL server image. 
 
-## Getting Started
-
-### Prerequisities
+### Prerequisites
 
 
 In order to run this container you'll need docker and docker compose installed.
@@ -16,6 +14,12 @@ In order to run this container you'll need docker and docker compose installed.
 ### Usage
 
 This SQL server was designed to be connected to Azure Data Studio for MacOS. 
+
+To run the container:
+```$ docker-compose up -d```
+
+To stop the container:
+```$ docker-compose stop```
 
 ## Built With
 
